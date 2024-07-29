@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=324 height=720 tabindex="-1" style="width: 324px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/beach.loader.js"></script>
+    <script src="Build/Beach.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/beach.data",
-        frameworkUrl: "Build/beach.framework.js",
-        codeUrl: "Build/beach.wasm",
+        dataUrl: "Build/Beach.data",
+        frameworkUrl: "Build/Beach.framework.js",
+        codeUrl: "Build/Beach.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "MindfulBreathing",
